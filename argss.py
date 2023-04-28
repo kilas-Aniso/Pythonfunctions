@@ -51,3 +51,8 @@ def concatenate_kwargs(**kwargs):
     for key, value in kwargs.items():
         result += str(key,value)
     return result
+
+
+x = range(20,30)
+for i in x:
+    print(i*3)
